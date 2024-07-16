@@ -1,10 +1,10 @@
 package Compra;
 
-public class Pessoa {
+public class NotaCliente {
 	
 	private String nome;
 	private int idade;
-	private int cpf;
+	private long cpf;
 	
 	@Override
 	public String toString() {
@@ -23,10 +23,10 @@ public class Pessoa {
 	public void setIdade(int idade) {
 		this.idade = idade;
 	}
-	public int getCpf() {
+	public long getCpf() {
 		return cpf;
 	}
-	public void setCpf(int cpf) {
+	public void setCpf(long cpf) {
 		this.cpf = cpf;
 	}
 	
